@@ -1,0 +1,8 @@
+OnlyNative Order Cancellation Policy
+Document ID: ON-POL-0002
+Version: 2.0
+Status: Approved
+Access Level: Public
+
+An order may be cancelled on the same day on which it was placed.
+No additional cancellation window or refund timeline has been formally defined in this corpus.

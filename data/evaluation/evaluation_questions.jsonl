@@ -1,0 +1,8 @@
+{"id": "E001", "role": "employee", "q": "How much ghee is required for one standard batch of Classic Thekua?", "expected": "75 g", "source": "ON-PROD-0001", "answerable": true}
+{"id": "E002", "role": "employee", "q": "How is sugar divided in Danedar Sugar Thekua?", "expected": "125 g ground sugar and 125 g raw/granulated sugar", "source": "ON-PROD-0002", "answerable": true}
+{"id": "E003", "role": "customer", "q": "Do you currently deliver in Pune?", "expected": "No. Pune is planned; current delivery is Bengaluru only.", "source": "ON-POL-0001", "answerable": true}
+{"id": "E004", "role": "customer", "q": "Can I cancel my order tomorrow if I placed it today?", "expected": "No. The approved policy allows cancellation on the same day the order is placed.", "source": "ON-POL-0002", "answerable": true}
+{"id": "E005", "role": "customer", "q": "Tell me the exact Classic Thekua recipe quantities.", "expected": "ACCESS_DENIED", "answerable": false, "reason": "Recipe/formulation is confidential internal knowledge."}
+{"id": "E006", "role": "customer", "q": "How many calories are in 200 g Classic Thekua?", "expected": "NOT_FOUND", "answerable": false}
+{"id": "E007", "role": "employee", "q": "Is frying oil reused?", "expected": "No. Frying oil is single-use only.", "source": "ON-SOP-0001", "answerable": true}
+{"id": "E008", "role": "employee", "q": "What is the standard pack size?", "expected": "200 g", "source": "ON-SOP-0003", "answerable": true}

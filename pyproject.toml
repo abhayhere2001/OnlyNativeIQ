@@ -1,0 +1,9 @@
+[project]
+name = "onlynativeiq"
+version = "0.1.0"
+description = "Enterprise Knowledge & Customer Support Assistant for OnlyNative"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,386 @@
+{
+  "registry_version": "2.0",
+  "corpus_name": "OnlyNativeIQ Knowledge Base",
+  "corpus_version": "2.0",
+  "organization": "OnlyNative",
+  "author": "Abhay Kumar Pandey",
+  "supported_ingestion_formats": [
+    "PDF",
+    "DOCX",
+    "TXT"
+  ],
+  "documents": [
+    {
+      "document_id": "ON-HR-0002",
+      "file_name": "Code_of_Conduct.txt",
+      "relative_path": "organization/Code_of_Conduct.txt",
+      "document_type": "code_of_conduct",
+      "domain": "organization",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "internal",
+      "audience": [
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-ORG-0002",
+      "file_name": "Company_FAQ.docx",
+      "relative_path": "organization/Company_FAQ.docx",
+      "document_type": "company_faq",
+      "domain": "organization",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "public",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-HR-0001",
+      "file_name": "Employee_Handbook.docx",
+      "relative_path": "organization/Employee_Handbook.docx",
+      "document_type": "employee_handbook",
+      "domain": "organization",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "internal",
+      "audience": [
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-ORG-0001",
+      "file_name": "OnlyNative_Brand_Story.txt",
+      "relative_path": "organization/OnlyNative_Brand_Story.txt",
+      "document_type": "brand_story",
+      "domain": "organization",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "public",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-POL-0002",
+      "file_name": "Order_Cancellation_Policy.txt",
+      "relative_path": "policies/Order_Cancellation_Policy.txt",
+      "document_type": "policy",
+      "domain": "policies",
+      "policy_type": "order_cancellation",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "public",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-POL-0003",
+      "file_name": "Product_Issue_Replacement_Policy.txt",
+      "relative_path": "policies/Product_Issue_Replacement_Policy.txt",
+      "document_type": "policy",
+      "domain": "policies",
+      "policy_type": "product_issue_replacement",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "public",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-POL-0001",
+      "file_name": "Shipping_Delivery_Policy.txt",
+      "relative_path": "policies/Shipping_Delivery_Policy.txt",
+      "document_type": "policy",
+      "domain": "policies",
+      "policy_type": "shipping_delivery",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "public",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-SOP-0001",
+      "file_name": "Food_Hygiene_SOP.pdf",
+      "relative_path": "production/Food_Hygiene_SOP.pdf",
+      "document_type": "sop",
+      "domain": "production",
+      "sop_type": "food_hygiene",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "internal",
+      "audience": [
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-SOP-0003",
+      "file_name": "Packaging_SOP.pdf",
+      "relative_path": "production/Packaging_SOP.pdf",
+      "document_type": "sop",
+      "domain": "production",
+      "sop_type": "packaging",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "internal",
+      "audience": [
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-SOP-0002",
+      "file_name": "Quality_Control_SOP.pdf",
+      "relative_path": "production/Quality_Control_SOP.pdf",
+      "document_type": "sop",
+      "domain": "production",
+      "sop_type": "quality_control",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "internal",
+      "audience": [
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true
+    },
+    {
+      "document_id": "ON-PROD-0004",
+      "product_id": "ON-GUJIYA-001",
+      "file_name": "Classic_Gujiya_Product_Guide.docx",
+      "relative_path": "products/Classic_Gujiya_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Classic Gujiya",
+      "product_category": "Gujiya",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    },
+    {
+      "document_id": "ON-PROD-0005",
+      "product_id": "ON-NAMKEEN-001",
+      "file_name": "Classic_Nimki_Product_Guide.docx",
+      "relative_path": "products/Classic_Nimki_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Classic Nimki",
+      "product_category": "Namkeen",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    },
+    {
+      "document_id": "ON-PROD-0001",
+      "product_id": "ON-THEKUA-001",
+      "file_name": "Classic_Thekua_Product_Guide.docx",
+      "relative_path": "products/Classic_Thekua_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Classic Thekua",
+      "product_category": "Thekua",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    },
+    {
+      "document_id": "ON-PROD-0002",
+      "product_id": "ON-THEKUA-002",
+      "file_name": "Danedar_Sugar_Thekua_Product_Guide.docx",
+      "relative_path": "products/Danedar_Sugar_Thekua_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Danedar Sugar Thekua",
+      "product_category": "Thekua",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    },
+    {
+      "document_id": "ON-PROD-0006",
+      "product_id": "ON-NAMKEEN-002",
+      "file_name": "Garlic_Blended_Nimki_Product_Guide.docx",
+      "relative_path": "products/Garlic_Blended_Nimki_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Garlic Blended Nimki",
+      "product_category": "Namkeen",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    },
+    {
+      "document_id": "ON-PROD-0003",
+      "product_id": "ON-THEKUA-003",
+      "file_name": "Jaggery_Thekua_Product_Guide.docx",
+      "relative_path": "products/Jaggery_Thekua_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Jaggery Thekua",
+      "product_category": "Thekua",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    },
+    {
+      "document_id": "ON-PROD-0007",
+      "product_id": "ON-MATHREE-001",
+      "file_name": "Maida_Spicy_Mathree_Product_Guide.docx",
+      "relative_path": "products/Maida_Spicy_Mathree_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Maida Spicy Mathree",
+      "product_category": "Namkeen",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    },
+    {
+      "document_id": "ON-PROD-0008",
+      "product_id": "ON-MATHREE-002",
+      "file_name": "Whole_Wheat_Spicy_Mathree_Product_Guide.docx",
+      "relative_path": "products/Whole_Wheat_Spicy_Mathree_Product_Guide.docx",
+      "document_type": "product_guide",
+      "domain": "products",
+      "product_name": "Whole Wheat Spicy Mathree",
+      "product_category": "Namkeen",
+      "version": "2.0",
+      "status": "approved",
+      "access_level": "mixed",
+      "audience": [
+        "customer",
+        "employee",
+        "production_employee",
+        "manager"
+      ],
+      "language": "en",
+      "ingestible": true,
+      "authoritative": true,
+      "contains_confidential_sections": true
+    }
+  ]
+}

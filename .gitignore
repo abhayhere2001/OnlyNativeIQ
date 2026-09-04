@@ -1,0 +1,57 @@
+# =============================================================================
+# OnlyNativeIQ - Git Ignore
+# =============================================================================
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Authentication data
+config/users.yaml
+
+# Python virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test/cache artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Generated vector/index artifacts
+vector_store/
+vector_stores/
+indexes/
+index/
+data/indexes/
+data/vector_store/
+
+# FAISS / vector files
+*.faiss
+*.index
+
+# Temporary files
+*.tmp
+*.temp
+~$*

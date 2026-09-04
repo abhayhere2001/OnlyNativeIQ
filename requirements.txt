@@ -1,0 +1,41 @@
+# ==============================================================================
+# Project      : OnlyNativeIQ
+# Organization : OnlyNative
+# Author       : Abhay Kumar Pandey
+# File         : requirements.txt
+# ==============================================================================
+
+python-dotenv>=1.2,<2.0
+PyYAML>=6.0,<7.0
+pydantic>=2.0,<3.0
+
+pypdf>=6.0,<7.0
+python-docx>=1.2,<2.0
+
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-text-splitters>=1.0,<2.0
+
+chromadb>=1.0,<2.0
+langchain-chroma>=1.0,<2.0
+
+# Optional configurable vector-store backend.
+faiss-cpu>=1.8,<2.0
+
+sentence-transformers>=5.0,<7.0
+rank-bm25>=0.2.2,<1.0
+
+langchain-google-genai>=4.0,<5.0
+langchain-groq>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+
+streamlit>=1.50,<2.0
+pytest>=8.0,<10.0
+
+langchain-core
+langchain-google-genai
+langchain-groq
+langchain-openai
+
+# Environment configuration
+python-dotenv

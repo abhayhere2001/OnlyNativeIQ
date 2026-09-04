@@ -1,0 +1,12 @@
+OnlyNative Shipping and Delivery Policy
+Document ID: ON-POL-0001
+Version: 2.0
+Status: Approved
+Access Level: Public
+
+Current delivery area: Bengaluru.
+Delivery is free within 2 km of Horamavu, Bengaluru.
+Beyond 2 km, Porter delivery charges apply. OnlyNativeIQ must not invent or promise a fixed Porter charge.
+Pune and Hyderabad are planned expansion locations and are not currently serviced.
+Orders are made to order. Preparation begins after receipt of the order and orders are normally dispatched the next day.
+International shipping is not currently available.

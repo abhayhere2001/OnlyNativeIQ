@@ -1,0 +1,15 @@
+{
+  "corpus_name": "OnlyNativeIQ",
+  "version": "2.0",
+  "supported_ingestion_formats": [
+    "PDF",
+    "DOCX",
+    "TXT"
+  ],
+  "knowledge_source_root": "01_raw",
+  "rules": [
+    "Only PDF, DOCX and TXT under 01_raw are ingestion sources.",
+    "JSON/JSONL metadata and evaluation files are engineering support artifacts, not knowledge sources.",
+    "Do not infer missing policy/process facts."
+  ]
+}

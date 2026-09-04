@@ -1,0 +1,4 @@
+{
+  "required_document_metadata": ["document_id","file_name","document_type","domain","version","status","access_level","audience","language"],
+  "required_chunk_metadata": ["document_id","chunk_id","file_name","document_type","domain","version","status","access_level","audience","language"]
+}
